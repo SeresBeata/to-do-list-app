@@ -9,6 +9,14 @@ function newItem(){
     } else {
         $('#list').append(liItem);
     }
+
+    //2. Crossing out an item from the list of items:
+    function strikeOut() {
+        $(liItem).toggleClass('strike');
+    }
+
+    liItem.on('dblclick', strikeOut);
+
 }
 
 $('#button').on('click', () =>{
