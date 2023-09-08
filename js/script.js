@@ -17,6 +17,11 @@ function newItem(){
 
     liItem.on('dblclick', strikeOut);
 
+    //3(i). Adding the delete button "X":
+    let myBtn = $('<button></button>');
+    myBtn.text('X');
+    myBtn.addClass('btn');
+    liItem.append(myBtn);
 }
 
 $('#button').on('click', () =>{
