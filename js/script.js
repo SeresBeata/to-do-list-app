@@ -22,6 +22,12 @@ function newItem(){
     myBtn.text('X');
     myBtn.addClass('btn');
     liItem.append(myBtn);
+    
+    myBtn.on('click', deleteItem);
+    //3(ii). Removing the selected element and its child elements with remove() method:
+    function deleteItem(){
+        liItem.remove();
+    }
 }
 
 $('#button').on('click', () =>{
