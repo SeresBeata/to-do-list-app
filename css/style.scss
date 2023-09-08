@@ -43,4 +43,25 @@ body {
       opacity: 0.8;
     }
   }
+  ol {
+    padding-left: 20px;
+    li {
+      padding: 5px;
+      color: $text-color-primary;
+      &:nth-child(even) {
+        background: $bg-color-primary;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+      .btn {
+        background: none;
+        border: none;
+        float: right;
+        color: #025f70;
+        font-weight: 800;
+      }
+    }
+  }
+}
 }

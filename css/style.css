@@ -35,3 +35,23 @@ body {
   cursor: pointer;
   opacity: 0.8;
 }
+.container ol {
+  padding-left: 20px;
+}
+.container ol li {
+  padding: 5px;
+  color: #000;
+}
+.container ol li:nth-child(even) {
+  background: #dfdfdf;
+}
+.container ol li:hover {
+  cursor: pointer;
+}
+.container ol li .btn {
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
