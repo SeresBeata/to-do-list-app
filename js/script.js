@@ -28,6 +28,9 @@ function newItem(){
     function deleteItem(){
         liItem.remove();
     }
+
+    // 4. Reordering the items: 
+    $('#list').sortable();
 }
 
 $('#button').on('click', () =>{
