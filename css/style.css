@@ -22,3 +22,16 @@ body {
 .container form input {
   padding: 4px 15px 4px 5px;
 }
+.container #button {
+  display: inline-block;
+  background-color: #fc999b;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+.container #button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

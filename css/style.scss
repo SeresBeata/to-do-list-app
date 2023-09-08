@@ -30,4 +30,17 @@ body {
       padding: 4px 15px 4px 5px;
     }
   }
+  #button {
+    display: inline-block;
+    background-color: $bg-color-cta;
+    color: $text-color-secondary;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
 }
