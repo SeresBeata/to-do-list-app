@@ -3,3 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 /* End: Color Palette and Typography */
 /********************** END: GENERAL SETTINGS **********************/
+body {
+  font: normal normal 13px/16px "Open Sans", sans-serif;
+  background: #dfdfdf;
+}
